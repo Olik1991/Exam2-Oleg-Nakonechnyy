@@ -22,11 +22,47 @@ body {
     left: 4px;
     font-weight: 400;
 }
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.row1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -151px -15px;
+}
+.row2 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -191px -15px;
+}
+
 .firee {
     width: 105%;
     height: 550px;
     position: relative;
     top: -77px;
+}
+.firee1 {
+    width: 75%;
+    height: 414px;
+    position: relative;
+    top: -77px;
+}
+.firee2 {
+    width: 75%;
+    height: 414px;
+    position: relative;
+    left: 155px;
 }
 .border {
      border: none;
@@ -51,6 +87,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
 }
+.button1 {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AFACAD;
+    font-size: 13px;
+    top: 121px;
+    left: -107px;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    padding: 6px 27px;
+    width: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+.button2 {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AFACAD;
+    font-size: 13px;
+    top: 121px;
+    left: 96px;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    padding: 6px 27px;
+    width: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+.line {
+    position: relative;
+   
+    
+    top: -510px;
+    left: 403px;
+    width: 16%;
+     
+}
+.line2 {
+    position: relative;
+    top: -486px;
+    left: 395px;
+    width: 31%;
+}
+.line3 {
+    position: relative;
+    top: -90px;
+}
+     
+
 .card-text {
     position: relative;
     top: 160px;
@@ -61,9 +148,33 @@ body {
     top: 130px;
     font-size: 40px;
 }
+.title1 {
+    position: relative;
+    top: 78px;
+    left: -110px;
+    font-size: 26px;
+}
+.title2 {
+    position: relative;
+    top: 78px;
+    left: 100px;
+    font-size: 26px;
+}
 
 .text-muted2 {
     position: relative;
     top: 152px;
+    color: #212529;
+}
+.text-muted3 {
+    position: relative;
+    top: 105px;
+    left: -108px;
+    color: #212529;
+}
+.text-muted4 {
+    position: relative;
+    top: 105px;
+    left: 99px;
     color: #212529;
 }
