@@ -167,8 +167,45 @@ body {
     /* left: 100px; */
     font-size: 26px;
 }
-
-
+.title4 {
+    position: relative;
+    text-align: center;
+    top: 35px;
+    /* left: 100px; */
+    font-size: 26px;
+}
+.mb-2 {
+    margin-bottom: 1.5rem!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+@media (min-width: 992px) {
+.col2-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    border: 1px solid black;
+   
+   
+    
+    
+}
+}
+.row4 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    width: 100%;
+    border: 1px double black;
+    border-left:none ;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-collapse: collapse;
+}
 .text-muted2 {
     position: relative;
     top: 152px;
