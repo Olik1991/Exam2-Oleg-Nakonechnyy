@@ -31,6 +31,15 @@ body {
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
 }
+.row4 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
 .row1 {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -117,6 +126,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
 }
+.button3 {
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AFACAD;
+    font-size: 13px;
+    top: -35px;
+    left: 919px;
+    background-color: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    padding: 10px 20px;
+    width: 19%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+.text-muted5 {
+    --bs-text-opacity: 1;
+    color: #6c757d!important;
+    position: relative;
+    top: 62px;
+    left: -271px;
+}
+.social {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #B7B7B7;
+    border-radius: 50%;
+    padding: 4px;
+}
+.justify-content-center {
+    justify-content: center!important;
+    margin-right: -66px;
+}
 .line {
     position: relative;
    
@@ -170,7 +212,7 @@ body {
 .title4 {
     position: relative;
     text-align: center;
-    top: 35px;
+    top: 108px;
     /* left: 100px; */
     font-size: 26px;
 }
@@ -179,17 +221,18 @@ body {
     font-size: 16px;
     font-weight: 600;
 }
+.page-section {
+    margin-top: 140px;
+}
 @media (min-width: 992px) {
 .col2-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
-    border: 1px solid black;
-   
-   
-    
+    border: 1px solid #D8D8D8;
     
 }
 }
+
 .row4 {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -199,12 +242,115 @@ body {
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
     width: 100%;
-    border: 1px double black;
-    border-left:none ;
-    border-right: none;
+    border: 1px solid #D8D8D8;
+    border-left: none;
+    border-right:none;
     border-top: none;
     border-bottom: none;
     border-collapse: collapse;
+    
+}
+.row5 {
+    padding: 22px 14px;
+    display: flex;
+}
+.form-chek {
+    color: #595959;
+    font-weight: 300;
+}
+.form1 {
+    margin-top: 195px;
+}
+.form-select {
+    display: block;
+    width: 94%;
+    border-radius: 2px;
+    position: relative;
+    left: 14px;
+    top: -1px;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: -0.625rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.formchek22 {
+    position: relative;
+    left: 14px;
+    top: -10px;
+}
+.formchek23 {
+    position: relative;
+    left: 18px;
+    top: 2px;
+}
+.form-label {
+    margin-bottom: 1.5rem;
+    margin-left: 15px;
+    position: relative;
+    top: 8px;
+    /* width: 20%; */
+    padding: 0 2px;
+}
+textarea.form-control {
+    min-height: calc(2.5em + -0.25rem + 0px);
+    position: relative;
+    left: 14px;
+    top: -10px;
+    border-radius: 2px;
+    width: 94%;
+}
+.form-check-input[type=radio] {
+    border-radius: 50%;
+    background-color: #DEDEDE;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    background-color: #DEDEDE;
+    position: relative;
+    left: 14px;
+}
+label {
+    display: inline-block;
+    color: #09051E;
+    font-size: 15px;
+}
+.form-floating>label {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: #000000;
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0.75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s ease-in-out,transform .1s ease-in-out;
+}
+.form-floating>.form-control-plaintext:focus, .form-floating>.form-control-plaintext:not(:placeholder-shown), .form-floating>.form-control:focus, .form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.625rem;
+    padding-bottom: 0.625rem;
+    width: 80%;
+    height: 20px;
+    border-radius: 2px;
+    left: 13px;
+    position: relative;
 }
 .text-muted2 {
     position: relative;
